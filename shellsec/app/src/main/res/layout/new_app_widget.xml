@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Shellsec.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Shellsec.AppWidgetContainer"
+    android:background="@color/colorTransparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/widScanBtn"
+                android:layout_width="48dp"
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_menu_custom_scan_black" />
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="@dimen/_15sdp"
+
+                android:src="@mipmap/ic_launcher_background" />
+
+            <ImageView
+                android:id="@+id/widLockBtn"
+                android:layout_width="48dp"
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_height="48dp"
+                android:src="@drawable/baseline_lock_24" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
