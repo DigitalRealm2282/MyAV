@@ -1,0 +1,600 @@
+<resources>
+    <string name="app_name">Shell Security</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="scan">Scan</string>
+    <string name="scanningApplications">Scanning Applications</string>
+    <string name="appIcon">App icon</string>
+    <string name="stop">STOP</string>
+    <string name="project_version">v1.0</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="report_a_bug">Report a bug</string>
+    <string name="share">Share</string>
+    <string name="help_goodware">Safe: The prediction score is less than 0.5.</string>
+    <string name="help_malware">Malware: The prediction score is greater than 0.75.</string>
+    <string name="help_risky">Risky: The prediction score is between 0.5 and 0.75.</string>
+    <string name="help_unknown">Unknown: We cannot determine the type of the application.</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="sysapps_alert"><u>Note:</u> The scan system apps feature is included for experimental purpose only. We really do not recommend enabling it as it may show lot of false positives.</string>
+    <string name="emptystring" />
+    <string name="percent_start">0%</string>
+    <string name="real_time_scan_desc">Real Time Scan is a feature that enables the anti-malware application to detect new app installations on the device and scan them. If enabled, the anti-malware app can automatically scan newly installed applications. You can enable/disable this feature in settings. This feature is enabled by default.</string>
+    <string name="how_it_works_desc">Shell uses permissions and intent-filters to detect malicious apps. While scanning, it loads the machine learning model and extracts permissions and intents from the installed applications on your device. These extracted features are then fed to the machine learning model in the form of a vector. The machine learning model returns a prediction score between 0 and 1 that denote the degree of maliciousness of the scanned application. We use this score to classify the scanned app into one of the following categories:</string>
+    <string name="project_description">Shell is an attempt to detect malwares in Android devices by utilizing machine learning approach.</string>
+    <string name="what_is_libreav">* What is Shell?</string>
+    <string name="what_is_real_time_scan">* What is Real Time Scan?</string>
+    <string name="how_it_works">* How it works?</string>
+    <string name="what_is_scan_system_apps_feature">* What does Scan System Apps feature mean?</string>
+    <string name="scan_system_apps_desc">Scan system apps is a feature that tells the anti-malware application to analyze system applications also. You can enable/disable this feature in settings. This feature is disabled by default.</string>
+    <string name="logo">Logo</string>
+    <string name="iconDescription">Icon</string>
+    <string name="permission_list">Permissions List</string>
+    <string name="app_details">APP DETAILS</string>
+    <string name="scanning">SCANNING</string>
+    <string name="report">REPORT</string>
+    <string name="no_permissions_required">No permissions required!</string>
+    <string name="prediction_score">Prediction Score :</string>
+    <string name="malware">Malware</string>
+    <string name="safe">Safe</string>
+    <string name="risky">Risky</string>
+    <string name="unknown">Unknown</string>
+    <string name="scan_now">SCAN NOW</string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="help_title">HELP</string>
+    <string name="app_settings">App Settings</string>
+    <string name="real_time_scan">Real Time Scan</string>
+    <string name="real_time_scan_summary">Automatically scan new apps</string>
+    <string name="scan_system_apps">Scan System Apps (Error-prone)</string>
+    <string name="scan_system_apps_summary">Include system apps while scanning \n(Not recommended)</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_summary">Enable/disable dark mode for the app</string>
+    <string name="help_and_support">Help &amp; Support</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="rate_this_app_summary">Give us feedback</string>
+    <string name="open_source_libraries">Open Source Libraries</string>
+    <string name="open_source_libraries_summary">View open source libraries</string>
+    <string name="app_version_text">App Version</string>
+    <string name="system_app">System App</string>
+    <string name="uninstall_successful">Uninstall Successful!</string>
+    <string name="last_scan">Last Scan:</string>
+    <string name="never">Never</string>
+    <string name="scan_system_apps_toast">System apps will be included while scanning</string>
+    <string name="dark_mode_enabled_toast">Dark Mode is Enabled</string>
+    <string name="dark_mode_disabled_toast">Dark Mode is Disabled</string>
+    <string name="real_time_scan_on">Real Time Scan is On</string>
+    <string name="is">\u0020is\u0020</string>
+    <string name="permission_info">Permission Info</string>
+    <string name="no_description_found">No description found</string>
+    <string name="notice">⚠️⚠️ PLEASE BE AWARE THAT LIBREAV IS STILL IN ITS EARLY STAGES OF DEVELOPMENT AND MAY CONTAIN A LOT OF FALSE POSITIVES IN PREDICTION. THIS PROJECT IS DEVELOPED FOR EDUCATIONAL PURPOSES ONLY AND WE MAKE NO GUARANTEE THAT THE OUTPUT PRODUCED BY LIBREAV IS ABSOLUTELY CORRECT. SO PLEASE DO NOT JUDGE OTHER APPLICATIONS USING THE OUTPUT OF LIBREAV ALONE.⚠️⚠️</string>
+    <string name="scan_apk">Scan APK</string>
+    <string name="permission_denied_message">Permission is required for getting list of files</string>
+    <string name="select_a_file">Select a File</string>
+    <string name="file_does_not_exist">File does not exist</string>
+    <string name="error_loading_file">Error loading file</string>
+    <string name="sha256_hash" translatable="false">SHA256 Hash</string>
+    <string name="sample_text" translatable="false">Sample</string>
+    <string name="custom_scan">Custom Scan</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="app_version">1.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sample_device_admin_description">HI am the super administrator of the device.</string>
+    <string name="add_admin_extra_app_text">You can disable Camera so other spying or hidden cam can not access your camera without your permission.</string>
+
+
+    <string name="access_camera_title">Can access camera</string>
+    <string name="access_fine_message">This application can access its exact position and is a risk for your privacy.</string>
+    <string name="record_audio_message">This application can record audio and is a risk for your privacy.</string>
+    <string name="record_audio_title">Can record audio</string>
+    <string name="outgoing_calls_title">Can control outgoing calls</string>
+    <string name="outgoing_phone_message">This app can see the number being dialed during an outgoing call with the option to redirect the call to a different number or abort the call altogether. This can add charges to data plan and is a HIGH privacy risk.</string>
+
+    <string name="read_history_bookmark_title">Can read your history</string>
+    <string name="read_history_message">This application can read your history bookmarks and is a risk for your privacy.</string>
+    <string name="read_phone_message">This app collects and sends SIM card details, including address book, mobile PIN, and call history. This can add charges to data plan and is a HIGH privacy risk.</string>
+    <string name="read_sms_message">This application can read your private SMS and is a risk for your privacy.</string>
+    <string name="read_your_sms">Can read your SMS</string>
+
+    <string name="call_phone_message">This app can initiate a phone call without going through the Dialer user interface for the user to confirm the call. This can add charges to data plan and is a HIGH privacy risk.</string>
+    <string name="camera_message">This application can access the camera device and is a risk for your privacy.</string>
+    <string name="can_make_call_title">Can make calls</string>
+
+    <string name="write_history_bookmark_title">Can write your history</string>
+    <string name="write_history_message">This application can write your history bookmarks and is a risk for your privacy.</string>
+    <string name="write_sms_message">This application can write SMS. This can add charges to data plan and is a MEDIUM privacy risk.</string>
+    <string name="write_sms_title">Can write SMS</string>
+
+    <string name="send_sms_message">This application can send SMS. This can add charges to data plan and is a HIGH privacy risk.</string>
+    <string name="send_sms_title">Can send SMS</string>
+
+    <string name="location_shared">Location shared</string>
+
+    <string name="phone_data_shared">Phone data shared</string>
+    <string name="Home">Home</string>
+
+
+    <string name="vigilante_description">Vigilante service</string>
+    <string name="vigilante_summary">Vigilante listens for events and displays a dot when camera/mic usage occurs.</string>
+    <string name="home">Home</string>
+    <string name="disable_the_service">Turn off the service manually</string>
+    <string name="enable_the_service">Please turn on the service first</string>
+    <string name="disable_text">Turn off</string>
+    <string name="enable_text">Turn on</string>
+    <string name="disk_not_encrypted">Not encrypted</string>
+    <string name="disk_encrypted">Encrypted</string>
+    <string name="permissions_history">Permissions</string>
+    <string name="headset_history">Headset</string>
+    <string name="notifications_history">Notifications</string>
+    <string name="lock_screen_history">Lockscreen</string>
+    <string name="notifications_usage_expl">Notifies you when camera/mic/etc. is used, if/when possible.</string>
+    <string name="notifications_usage_expl_camera">Notifies you when the camera is used, if/when possible.</string>
+    <string name="notifications_usage_expl_mic">Notifies you when the mic is used, if/when possible.</string>
+    <string name="notifications_usage_expl_location">Notifies you when location is on, if/when possible.</string>
+    <string name="notifications_usage_title">Usage notifications</string>
+    <string name="crash_report">Crash report #%1$d</string>
+    <string name="no_crashes">No crashes recorded.</string>
+    <string name="version">Version</string>
+    <string name="date_format">Date format</string>
+    <string name="current_date_format">Currently %1$s</string>
+    <string name="no_results_expl">There are no results chief.\nCome back later, we will be on the lookout!</string>
+    <string name="screen_unlocked">Screen unlocked</string>
+    <string name="screen_locked">Screen locked</string>
+    <string name="total">Total</string>
+    <string name="locks">Lockings</string>
+    <string name="unlocks">Unlockings</string>
+    <string name="content_description_lock_screen_filter">Lockscreen filter</string>
+    <string name="locks_and_unlocks">Lockings and unlockings</string>
+    <string name="locks_only">Lockingss only</string>
+    <string name="unlocks_only">Unlockings only</string>
+    <string name="disconnected">Unplugged</string>
+    <string name="connected">Plugged in</string>
+    <string name="connected_with_mic">Connected with mic</string>
+    <string name="not_available">N/A</string>
+    <string name="headset_connection_type_title">Headset %1$s</string>
+    <string name="allowed">Allowed</string>
+    <string name="allowed_foreground_only">Allowed foreground only</string>
+    <string name="always_allowed">Allowed always</string>
+    <string name="allowed_one_time">Allowed only once</string>
+    <string name="denied">Denied</string>
+    <string name="denied_and_do_not_ask_again">"Denied permanently"</string>
+    <string name="ask_every_time">Ask each time</string>
+    <string name="permissions_requests_by_app_count">%1$d permission requests in total.</string>
+    <string name="total_permission_requests">Total permission requests</string>
+    <string name="title_placeholder">Title: %1$s</string>
+    <string name="big_text_placeholder">Big text: %1$s</string>
+    <string name="text_placeholder">Text: %1$s</string>
+    <string name="category_placeholder">Category: %1$s</string>
+    <string name="group_placeholder">Group: %1$s</string>
+    <string name="channel_id_placeholder">Channel ID: %1$s</string>
+    <string name="notification_visibility_public">Publicly visible notification</string>
+    <string name="notification_visibility_private">Privately visible notification</string>
+    <string name="notification_visibility_secret">Secretly visible notification</string>
+    <string name="notification_visibility_placeholder">Visibility: %1$s</string>
+    <string name="notification_color_placeholder">Notification color: %1$s</string>
+    <string name="notification_color_copied_to_clipboard">Notification color copied to clipboard</string>
+    <string name="date_placeholder">Date: %1$s</string>
+    <string name="power_history">Power</string>
+    <string name="power_disconnected">Power disconnected</string>
+    <string name="power_connected">Power connected</string>
+    <string name="ac_charging">AC charging</string>
+    <string name="usb_charging">USB charging</string>
+    <string name="wireless_charging">Wireless charging</string>
+    <string name="error_occurred">An error occurred. Try again later.</string>
+    <string name="channel_name">Vigilante usage notifications</string>
+    <string name="channel_description">Notifications are sent when specified usage occurs</string>
+    <string name="mic_being_used">Your mic is being used!</string>
+    <string name="location_being_used">Your location is turned on, could be it\'s being used!</string>
+    <string name="cam_being_used">Your camera is being used!</string>
+    <string name="usage_title">Usage detected</string>
+    <string name="dot_usage_title">Show usage dot</string>
+    <string name="dot_usage_expl">Displays a dot on your screen during specified use.</string>
+    <string name="exclude_from_notifications_title">No notifications</string>
+    <string name="exclude_from_notifications_expl">Removes ones from this app from the history</string>
+    <string name="enable_dot_customization">Turn on \"Show dot usage\" first!</string>
+    <string name="microphone_title">Mic</string>
+    <string name="camera_title">Camera</string>
+    <string name="size_title">Dot size</string>
+    <string name="pick_color">Pick color</string>
+    <string name="select">Select</string>
+    <string name="pick_dot_color">Pick dot color</string>
+    <string name="dot_mic">Mic dot</string>
+    <string name="dot_camera">Camera dot</string>
+    <string name="dot_indicator">Dot indicator</string>
+    <string name="top_right_corner">Top-right corner</string>
+    <string name="top_left_corner">Top-left corner</string>
+    <string name="center_right_side">Center-right side</string>
+    <string name="center_left_side">Center-left side</string>
+    <string name="bottom_right_corner">Bottom-right corner</string>
+    <string name="bottom_left_corner">Bottom-left corner</string>
+    <string name="top_center_horizontal">Center top</string>
+    <string name="bottom_center_horizontal">Center bottom</string>
+    <string name="dot_position">Position on screen</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard_changes">Discard</string>
+    <string name="save">Save</string>
+    <string name="save_progress_expl">Discard or save current changes?</string>
+    <string name="customize_cam_or_mic">Customize camera and/or mic parameters?</string>
+    <string name="saved">Saved</string>
+    <string name="disk_status">Storage</string>
+    <string name="crash_copied_to_clipboard">Crash details copied to clipboard</string>
+    <string name="content_copied_to_clipboard">Copied to clipboard</string>
+    <string name="web_browser_required">Install a web browser first.</string>
+    <string name="informational">Info</string>
+    <string name="customizations">Customizations</string>
+    <string name="home_page">Homepage</string>
+    <string name="license" translatable="false">GPLv3+</string>
+    <string name="license_title">License</string>
+    <string name="root_status">Rooted</string>
+    <string name="device_not_rooted">No</string>
+    <string name="device_rooted">Yes</string>
+    <string name="magisk_status">Magisk</string>
+    <string name="magisk_not_detected">Not detected</string>
+    <string name="magisk_detected">Installed</string>
+    <string name="next">Next</string>
+    <string name="welcome_to_vigilante_you_have_chosen_privacy_thank_you_for_your_decision">Welcome to Vigilante,\nyou have thankfully chosen privacy.</string>
+    <string name="you_can_choose_the_size_color_and_the_position_of_the_dots_appearing_on_the_screen">Choose the size, color and position of the dots appearing on screen</string>
+    <string name="and_many_other_customizations_and_options_available_within_the_simple_ui_in_the_application">+ other customizations and options available.</string>
+    <string name="finish">Finish</string>
+    <string name="final_expl">Don\'t forget to report crashes, and suggest new features. If a service is offered to you for free showing ads or connects to the Internet without a stated goal, you are the product!</string>
+    <string name="final_pre_expl">Here you get encryption, privacy and productivity.</string>
+    <string name="the_app_is_an_open_source_project_and_will_remain_as_such_as_it_focuses_on_privacy_and_it_s_integrity">This libre app is also copyleft, so it will remain as such—focusing on privacy and integrity.</string>
+    <string name="device_info">Device info</string>
+    <string name="security">Security</string>
+    <string name="biometric_auth_expl">Require fingerprint or face to open the app</string>
+    <string name="biometric_auth_title">Biometric app unlocking</string>
+    <string name="unsupported_device">Your device does not support this.</string>
+    <string name="verification_required">Verification required</string>
+    <string name="prompt_info_expl">Please verify your identity</string>
+    <string name="auth_failed">Could not verify identity. Please try again.</string>
+    <string name="verify_to_proceed">Verify your identity to open the app.</string>
+    <string name="language_title">Language</string>
+    <string name="notification_led_color">Notification LED color</string>
+    <string name="pick_notification_LED_color">Pick a notification LED-color</string>
+    <string name="led_notification_expl">Only available for devices with a notification LED.</string>
+    <string name="bypass_dnd_title">Disregard \"Do not disturb\"</string>
+    <string name="bypass_dnd_expl">Notifications of usage in all modes.\nUse with caution!</string>
+    <string name="notifications">Notifications</string>
+    <string name="light">Light</string>
+    <string name="medium">Medium</string>
+    <string name="heavy">Heavy</string>
+    <string name="none">None</string>
+    <string name="vibration_on_notification">Vibrating notification</string>
+    <string name="incompatible_os_version">Your Android version does not support this.</string>
+    <string name="vibrations_not_happening_expl">**Fix vibrations by going to App info > Notifications > Usage notifications and turn on \"Sound with vibration\".\nTap here to test the selected vibration.**</string>
+    <string name="spacing">Spacing</string>
+    <string name="spacing_expl">Useful to avoid rounded corners or the notch blocking the dot</string>
+    <string name="too_large_to_copy_to_clipboard">Too large to copy to clipboard. Please send screenshots of the screen.</string>
+    <string name="app_not_installed">App not installed</string>
+    <string name="history_deletion">Limit history</string>
+    <string name="history_deletion_expl">Only keep the last 30 days</string>
+    <string name="application">App</string>
+    <string name="dot_indicator_customizations">Dot-indicator customizations.</string>
+    <string name="generate">Generate</string>
+    <string name="generate_one_time_password">Generate one-time password</string>
+    <string name="password_length">8+ characters</string>
+    <string name="password_length_expl">(Fewer characters makes your password easier to guess)</string>
+    <string name="shuffle_characters">Shuffle characters</string>
+    <string name="password_too_short">Too short</string>
+    <string name="location_title">Location</string>
+    <string name="sound_pref_title">Notification sound</string>
+    <string name="sound_pref_summary">Notification sounds to signal use.</string>
+    <string name="my_other_apps">Other FunkyMuse apps</string>
+
+    <!--Logging-->
+    <string name="logging_title">Logging</string>
+    <string name="log_permissions_title">Permissions</string>
+    <string name="log_power_title">Log power</string>
+    <string name="log_headset_title">Log headset</string>
+    <string name="log_notifications_title">Log notifications</string>
+    <string name="log_lockscreen_title">Log lockscreen</string>
+
+    <!--Languages-->
+    <string name="bulgarian">Bulgarian</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="hebrew">Hebrew</string>
+    <string name="italian">Italian</string>
+    <string name="macedonian">Macedonian</string>
+    <string name="marathi">Marathi</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="russian">Russian</string>
+    <string name="spanish">Spanish</string>
+    <string name="restart_service_for_changes_to_take_effect">Restart the Vigilante service to use the new changes.</string>
+    <string name="log_empty_notifications">Log empty notifications</string>
+    <string name="log_empty_notifications_summary">Leaves out notifications that have an empty body. (Logged by default.)</string>
+
+    <string name="choose_browser_title">Open websites with</string>
+
+    <string name="choose_options_title">Options</string>
+
+    <string name="block_with_dialog">Block, with dialog</string>
+
+    <string name="block_without_dialog">Block, without dialog</string>
+
+    <string name="dont_block">Don\'t block</string>
+
+    <string name="save_text">Save</string>
+
+    <string name="url_not_in_db_warning_text">Suppress \'Link not in Database\' warning</string>
+
+    <string name="app_about_title">ScanLinks app for Android</string>
+
+    <string name="app_about_version">Version</string>
+
+    <string name="app_about_version_string">1.1.000.b</string>
+
+    <string name="app_about_text">ScanLinks allows you to block dangerous and unsafe websites on your device. Whenever you click on a link from another app, ScanLinks will check it if it\'s safe and will block the link from opening if it\'s not</string>
+
+    <string name="app_about_open_source_text">ScanLinks for Android is made using great open source software:</string>
+
+    <string name="licenses_text">licenses</string>
+
+    <string name="beta_text">beta</string>
+
+    <string name="welcome_app_text">Hi, welcome to ScanLinks! ScanLinks protects you from websites that are designed to phish sensitive information like personal and financial details, host malware, show a lot of spam or try to install a suspicious application on your device. ScanLinks is easy to set-up. Select the web browser you want to open websites in (if you don\'t choose one, Chrome is selected as the default browser to open websites in), select the blocking setting (block w/ dialog, block w/o dialog, or no blocking) and hit \'Save\'. When you click on a link, your device will show a dialog to select an app to handle the link, select \'ScanLinks\' and click on \'Always\' so ScanLinks can automatically handle any intent to open an URL from an external app. That\'s it! PS: If your device does not show you a dialog box to handle the link, you can go to Default Apps settings on your phone and set \'ScanLinks\' as the default browser app. This will make sure all intents to handle an URL is passed to ScanLinks properly.</string>
+
+    <string name="welcome_app_dialog_title">Welcome</string>
+
+    <string name="welcome_app_dialog_positive_text">Got it</string>
+
+    <string name="browser_not_default_dialog_title">Oops</string>
+
+    <string name="browser_not_default_dialog_text">ScanLinks is not set as the default browser app on your phone. Please set ScanLinks as the default browser app in your device\'s Settings, otherwise ScanLinks will not be able to scan external links.</string>
+
+    <string name="browser_not_default_dialog_positive_button">Okay</string>
+
+    <string name="browser_not_default_dialog_negative_text">Open Default Apps settings</string>
+
+    <string name="add_to_whitelist_dialog_title">Add to whitelist</string>
+
+    <string name="add_to_whitelist_dialog_text">Enter a domain to add to the whitelist:</string>
+
+    <string name="add_to_whitelist_dialog_toast_success">Successfully added</string>
+
+    <string name="add_to_whitelist_dialog_toast_failure">Domain already exists in the whitelist</string>
+
+    <string name="remove_from_whitelist_dialog_title">Remove from whitelist</string>
+
+    <string name="remove_from_whitelist_dialog_text">Enter a domain to remove from the whitelist:</string>
+
+    <string name="remove_from_whitelist_dialog_toast_success">Successfully removed</string>
+
+    <string name="remove_from_whitelist_dialog_toast_failure">Domain does not exist in the whitelist</string>
+
+    <string name="no_dialog_warning_toast">Link was blocked because it was unsafe</string>
+
+    <string name="progress_dialog_title">Scanning</string>
+
+    <string name="progress_dialog_text">Please wait while this link is being scanned...</string>
+
+    <string name="scan_unavail_dialog_title">Scan unavailable!</string>
+
+    <string name="scan_unavail_dialog_text">Scanning is not possible at the moment. This is either because you are not connected to the internet or the scanning service is down. You can continue viewing this website, although it may not be safe.</string>
+
+    <string name="scan_unavail_dialog_positive_button">Open website</string>
+
+    <string name="scan_unavail_dialog_negative_button">Close</string>
+
+    <string name="url_not_in_db_dialog_title">Link not in database!</string>
+
+    <string name="url_not_in_db_dialog_text">The link you\'re trying to open is not in the scan database and is currently being analyzed. You can continue viewing this website, although it may not be safe.</string>
+
+    <string name="url_not_in_db_dialog_positive_button">Open website</string>
+
+    <string name="url_not_in_db_dialog_negative_button">Close</string>
+
+    <string name="danger_dialog_title">Danger ahead!</string>
+
+    <string name="danger_dialog_text">This link may lead you to an unsafe website that hosts malware, tricks you into revealing sensitive information (phishing), or attempts to install a suspicious application onto your device. It is highly recommended you do not visit this website, although you can open this website at your own risk.</string>
+
+    <string name="danger_dialog_positive_text">Close</string>
+
+    <string name="danger_dialog_negative_button">Open website</string>
+
+    <string name="danger_dialog_neutral_button">View scan report</string>
+
+    <string name="main_menu_setup_item_text">Setup instructions</string>
+
+    <string name="main_menu_default_apps_item_text">Open Default Apps</string>
+
+    <string name="main_menu_whitelist_item_text">Whitelist</string>
+
+    <string name="main_menu_about_item_text">About</string>
+
+    <string name="whitelist_menu_add_item_text">Add</string>
+
+    <string name="whitelist_menu_remove_item_text">Remove</string>
+
+    <string name="url_not_in_db_neutral_text">Don\'t show again</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_close">Close</string>
+    <string name="file_encryption">File Encryption</string>
+    <string name="master_key">Master Key</string>
+    <string name="pref_encryption">Pref Encryption</string>
+    <string name="image_encryption">Image Encryption</string>
+
+    <!--&lt;!&ndash;    <string name="share">Share</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;    <string name="rate">Rate us</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;    <string name="feedback">Feedback</string>&ndash;&gt;-->
+
+    <!--    <string name="app_security_description">Recommended to lock app</string>-->
+
+    <!--    <string name="notification_protecting_title">AppLock is protecting your Apps</string>-->
+
+    <!--    <string name="notification_protecting_description">Running in Background to protect your privacy.</string>-->
+
+    <!--    <string name="notification_permission_need_title">Enable permission to protection</string>-->
+
+    <!--    <string name="notification_permission_need_description">Please enable your permissions to use app locker.</string>-->
+    <!--    <string name="you_accept_privacy_policy">By continuing you agree the-->
+    <!--        <u>Privacy Policy</u>-->
+    <!--    </string>-->
+
+    <!--    <string name="header_recommended_to_lock">Recommended to lock</string>-->
+    <!--    <string name="header_all_apps">All applications</string>-->
+
+    <!--    <string name="title_general_settings">General</string>-->
+
+    <!--    &lt;!&ndash; Security &ndash;&gt;-->
+    <!--    <string name="title_lock_all">Lock all</string>-->
+    <!--    <string name="description_lock_all">This will lock all of your apps</string>-->
+
+    <!--    &lt;!&ndash; Settings &ndash;&gt;-->
+    <!--    <string name="title_unlock_all">Unlock all</string>-->
+
+    <!--    <string name="description_unlock_all">This will unlock all of your apps</string>-->
+    <!--    <string name="settings_change_pattern_title">Change pattern</string>-->
+
+    <!--    <string name="settings_change_pattern_description">Change your existing pattern</string>-->
+    <!--    <string name="message_pattern_changed">Pattern changed successfully</string>-->
+
+    <!--    <string name="setting_in_stealth_mode_title">Hide drawing</string>-->
+    <!--    <string name="setting_in_stealth_mode_description">Invisible pattern while drawing</string>-->
+    <!--    <string name="setting_fingerprint_title">Enable fingerprint</string>-->
+
+    <!--    <string name="setting_fingerprint_description">Launch app with your fingerprint.</string>-->
+    <!--    <string name="setting_fingerprint_not_supported_title">Fingerprint is not supported</string>-->
+
+    <!--    <string name="setting_fingerprint_not_supported_description">Your device doesn\'t have sensor</string>-->
+    <!--    <string name="setting_fingerprint_not_registered_title">Register your fingerprint</string>-->
+
+    <!--    <string name="setting_fingerprint_not_registered_description">Go to security settings</string>-->
+    <!--    <string name="next">Next</string>-->
+
+    <!--    <string name="permission_usage_access_title">Usage access permission</string>-->
+    <!--    <string name="permission_usage_access_description">Enable usage acces to use app locker.</string>-->
+
+    <!--    <string name="permission_overlay_title">Lock screen permission</string>-->
+
+    <!--    <string name="settings_card_intruders_title">Catch Intruders</string>-->
+    <!--    <string name="settings_enable_intruders_title">Take intruders picture</string>-->
+    <!--    <string name="settings_enable_intruders_description">Enable to catch intruders.</string>-->
+
+    <!--    <string name="settings_intruders_folder_title">Catched intruder photos</string>-->
+    <!--    <string name="settings_intruders_folder_description">Click to see spies on you phone.</string>-->
+
+    <!--    &lt;!&ndash; Permissions activity &ndash;&gt;-->
+
+    <!--    <string name="permission_overlay_description">Enable overlay to show lock screen.</string>-->
+    <!--    <string name="permission_toast_enable_permissions">Enable permissions to use app locker</string>-->
+
+    <!--    <string name="draw_pattern_title">Create a new pattern</string>-->
+    <!--    <string name="redraw_pattern_title">Redraw to complete</string>-->
+
+    <!--    <string name="recreate_pattern_error">Pattern does not match. Redraw.</string>-->
+
+    <!--    <string name="create_pattern_successful">Successfully created.</string>-->
+    <!--    <string name="overlay_prompt_pattern_title">Draw pattern to open app</string>-->
+    <!--    <string name="overlay_prompt_pattern_title_wrong">Wrong pattern. Draw again.</string>-->
+    <!--    <string name="overlay_prompt_pattern_title_correct">Pattern correct.</string>-->
+
+    <!--    <string name="overlay_prompt_fingerprint_title">Draw pattern to open app</string>-->
+    <!--    <string name="overlay_prompt_fingerprint_title_wrong">Not matched. %1$s left.</string>-->
+    <!--    <string name="overlay_prompt_fingerprint_title_correct">Fingerprint matched!</string>-->
+
+    <!--    <string name="overlay_prompt_fingerprint_title_error">Fingerprint error! Try pattern.</string>-->
+    <!--    <string name="dialog_title_rate_us">Did you like AppLock India?</string>-->
+    <!--    <string name="dialog_description_rate_us">We will be sooo happy If you rate us on market.</string>-->
+    <!--    <string name="dialog_action_rate_us_rate">Rate</string>-->
+
+    <!--    <string name="dialog_action_rate_us_later">Later</string>-->
+    <!--    <string name="dialog_title_usage_permission">Android 5.0 Permission</string>-->
+    <!--    <string name="dialog_description_usage_permission">In Android 5.0 or above, you need to permit usage access for-->
+    <!--        AppLocker, so that you can use application Feature-->
+    <!--    </string>-->
+    <!--    <string name="dialog_action_usage_permission_permit">Permit</string>-->
+
+    <!--    <string name="dialog_action_usage_permission_cancel">Cancel</string>-->
+    <!--    <string name="dialog_title_privacy_policy">Privacy Policy</string>-->
+    <!--    <string name="dialog_description_privacy_policy">We have updated our privacy policy. By continuing you agree the-->
+    <!--        <u>Privacy Policy</u>-->
+    <!--    </string>-->
+    <!--    <string name="dialog_action_privacy_policy_accept">Accept</string>-->
+
+    <!--    <string name="title_main_browser">Browser</string>-->
+    <!--    <string name="title_main_background">Theme</string>-->
+    <!--    <string name="title_main_vault">Vault</string>-->
+
+    <!--    <string name="title_main_call_blocker">Blocker</string>-->
+    <!--    <string name="backgrounds">Backgrounds</string>-->
+    <!--    <string name="hint_browser_search">Search or enter URL</string>-->
+    <!--    <string name="facebook">Facebook</string>-->
+
+    <!--    <string name="twitter">Twitter</string>-->
+
+    <!--    &lt;!&ndash; Browser Activity texts &ndash;&gt;-->
+    <!--    <string name="instagram">Instagram</string>-->
+    <!--    <string name="youtube">Youtube</string>-->
+    <!--    <string name="title_browser_empty">Incognito Browser</string>-->
+    <!--    <string name="subtitle_browser_empty">Safe.Secure.Private</string>-->
+    <!--    <string name="bookmarks">Bookmarks</string>-->
+    <!--    <string name="under_development">Under development. Will be available soon.</string>-->
+    <!--    <string name="title_call_blocker">Call Blocker</string>-->
+    <!--    <string name="title_name_unknown_number">Unknown Number</string>-->
+
+    <!--    <string name="call_blocker_fab_description">Block number</string>-->
+
+
+    <!--    &lt;!&ndash; Call Blocker Activity texts &ndash;&gt;-->
+    <!--    <string name="blacklist_empty_title">Blacklist is empty</string>-->
+    <!--    <string name="blacklist_empty_description">Click + to block phone number</string>-->
+    <!--    <string name="call_log_empty_title">No Logs</string>-->
+
+    <!--    <string name="call_log_empty_description">Log appears here when call is blocked</string>-->
+    <!--    <string name="dialog_add_to_blacklist_title">Block phone number</string>-->
+
+    <!--    <string name="dialog_add_to_blacklist_name_hint">Name (Optional)</string>-->
+    <!--    <string name="dialog_add_to_blacklist_phone_hint">Enter phone number</string>-->
+
+    <!--    <string name="dialog_add_to_blacklist_action_block">Block</string>-->
+    <!--    <string name="dialog_add_to_blacklist_action_cancel">Cancel</string>-->
+    <!--    <string name="dialog_black_list_delete_title">Delete from blacklist</string>-->
+    <!--    <string name="dialog_black_list_delete_description">Do you want to remove blocked number from black list?</string>-->
+    <!--    <string name="dialog_black_list_delete_action_delete">Delete</string>-->
+
+    <!--    <string name="dialog_black_list_delete_action_cancel">Cancel</string>-->
+    <!--    <string name="dialog_title_add_to_vault">Processing</string>-->
+    <!--    <string name="dialog_description_process">Your media is removing from gallery and adding to your vault.</string>-->
+    <!--    <string name="dialog_description_process_removal" translatable="false">Your media is removing from vault and adding to your gallery.</string>-->
+    <!--    <string name="dialog_action_process" translatable="false">%d%%</string>-->
+
+    <!--    <string name="dialog_title_removal_confirmation">Removal Confirmation</string>-->
+    <!--    <string name="dialog_description_removal">This file will remove from vault and show into gallery.</string>-->
+    <!--    <string name="dialog_action_removal_confirmation_accept">Accept</string>-->
+
+    <!--    <string name="vault_photo_empty_page_title">Photo Vault is empty</string>-->
+    <!--    <string name="vault_photo_empty_page_description">Add + icon to hide photos from gallery</string>-->
+    <!--    <string name="vault_video_empty_page_title">Video Vault is empty</string>-->
+
+    <!--    <string name="vault_video_empty_page_description">Add + icon to video photos from gallery</string>-->
+    <!--    <string-array name="tabs">-->
+    <!--        <item>Security</item>-->
+    <!--        <item>Settings</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="call_blocker_tabs">-->
+    <!--        <item>Blacklist</item>-->
+    <!--        <item>Call Logs</item>-->
+    <!--    </string-array>-->
+    <!--    <string-array name="vault_tabs">-->
+    <!--        <item>Images</item>-->
+    <!--        <item>Videos</item>-->
+    <!--    </string-array>-->
+
+    <!-- Intruders Photo Activity -->
+    <string name="title_intruders_photos">Intruders Photos</string>
+    <string name="empty_page_intruders_title" translatable="false">No Intruders Catched</string>
+    <string name="empty_page_intruders_description" translatable="false">Your phone is secure!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
